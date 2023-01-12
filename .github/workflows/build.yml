@@ -6,7 +6,7 @@ on:
     - cron: '0 0 * * *'  # every day
 
 env:
-  IMAGE_NAME: silverblue-oci-template
+  IMAGE_NAME: silverblue-virt-host
   IMAGE_TAGS: latest ${{ github.sha }}
   IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
   REGISTRY_USER: ${{ github.actor }}
