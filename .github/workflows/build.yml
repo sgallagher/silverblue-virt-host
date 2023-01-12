@@ -26,8 +26,8 @@ jobs:
           string: ${{ env.IMAGE_REGISTRY }}
       
       # Checkout push-to-registry action github repository
-      - name: Checkout Push to Regisktry action
-        uses: actions/checkout@v2
+      - name: Checkout Push to Registry action
+        uses: actions/checkout@v3
 
       # Build image using Buildah action
       - name: Build Image
